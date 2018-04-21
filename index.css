@@ -1,0 +1,41 @@
+body {
+  font-family: Geneva;
+  background-color: whitesmoke;
+}
+
+.meme-title,
+.meme-nursery,
+#meme-pasture {
+  padding: 25px;
+  margin: 25px;
+  background-color: white;
+}
+
+.meme-nursery {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.meme-label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.meme-container {
+  height: 512px;
+  padding: 25px;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.meme-header,
+.meme-footer {
+  text-transform: uppercase;
+}
