@@ -7,7 +7,7 @@ function createMemeContainer(imgUrl) {
 }
 
 function createMemeHeader(headerText) {
-  const headerTag = document.createElement('h2');
+  const headerTag = document.createElement('h2.memer');
   const textNode = document.createTextNode(headerText);
   headerTag.setAttribute('class', 'meme-header');
   headerTag.appendChild(textNode);
@@ -15,7 +15,7 @@ function createMemeHeader(headerText) {
 }
 
 function createMemeFooter(footerText) {
-  const footerTag = document.createElement('h2');
+  const footerTag = document.createElement('h2.memer');
   const textNode = document.createTextNode(footerText);
   footerTag.setAttribute('class', 'meme-footer');
   footerTag.appendChild(textNode);

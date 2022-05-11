@@ -8,7 +8,7 @@ body {
 #meme-pasture {
   padding: 25px;
   margin: 25px;
-  background-color: white;
+  background-color: rgb(73, 21, 216);
 }
 
 .meme-nursery {
@@ -38,4 +38,6 @@ body {
 .meme-header,
 .meme-footer {
   text-transform: uppercase;
+  color: rgb(2, 248, 43);
+  font: 3em sans-serif;
 }
